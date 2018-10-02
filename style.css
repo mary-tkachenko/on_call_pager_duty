@@ -1,10 +1,11 @@
 
 #container {
     font-family: 'Roboto Mono', monospace;
-    margin: 100px;
     font-size: 20px;
     border: 2px solid #e32054;
-    width: 50%;
+    width: 95%;
+    color: #454545;
+    margin: 2.5vw;
 }
 
 #department, #person, #date {
@@ -25,22 +26,24 @@
 }
 
 #department, #person_photo, #person_name ,#date_from, #date_to, #title {
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
 }
 
 #person_photo img {
     border: 2px solid #e32054;
     width: 5vw;
+    margin-left: 1vw;
+    min-width: 80px;
 }
 #person_name {
-    margin-top: 4%;
-    font-size: 4vw;
+    margin-top: 2%;
+    font-size: 50px;
     width: 90%;
 }
 
 #next_information {
-    font-size: 1vw;  
+    font-size: 15px;  
     padding: 10px;
     text-align: center;
     color: gray;
